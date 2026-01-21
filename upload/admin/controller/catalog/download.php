@@ -121,7 +121,7 @@ class Download extends \Opencart\System\Engine\Controller {
 		$url = '';
 
 		if ($order == 'ASC') {
-			$url .= '&order=DESC';
+			$url .= '&order=DESC;
 		} else {
 			$url .= '&order=ASC';
 		}
